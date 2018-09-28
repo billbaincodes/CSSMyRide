@@ -89,9 +89,10 @@ Header {
   height: 100px;
 }
 
-.container {
+/* .container {
   display: flex;
+  text-align:center;
   flex-direction: column;
   justify-content: center;
   align-content: center;  
-}
+} */
