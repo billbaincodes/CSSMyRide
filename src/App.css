@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+Footer {
+  background-color: darkblue;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 30px;
+  display: block;
+  text-align:center;
+}
+
+.pink {
+  background-color: pink;
+  width: 300px;
+  height: 150px;
+}
+
+.red {
+  background-color: red;
+  width: 300px;
+  height: 150px;
+}
+
+.silver {
+  background-color: silver;
+  width: 300px;
+  height: 150px;
+}
+
+
+.Tires {
+  display: flex;
+  flex-direction: row;
+}
+
+.offroadTires {
+  background-color: black;
+  margin-left: 30px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
