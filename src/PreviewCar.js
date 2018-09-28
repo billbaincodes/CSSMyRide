@@ -13,8 +13,8 @@ class PreviewCar extends Component {
         <h4>Behold your ugly car!</h4>
         <div className={this.props.carColor}></div>
         <div className="Tires">
-          <div className="offroadTires"></div>
-          <div className="offroadTires"></div>
+          <div className={this.props.carTires}></div>
+          <div className={this.props.carTires}></div>
         </div>
 
       </div>

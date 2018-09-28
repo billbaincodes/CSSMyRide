@@ -38,6 +38,17 @@ Footer {
   text-align:center;
 }
 
+Header {
+  background-color: darkblue;
+  font-size: 4em;
+  color: white;
+  top: 0px;
+  width: 100vw;
+  display: block;
+  text-align:center;
+  margin-bottom: 30px;
+}
+
 .pink {
   background-color: pink;
   width: 300px;
@@ -62,10 +73,25 @@ Footer {
   flex-direction: row;
 }
 
-.offroadTires {
-  background-color: black;
+.steel {
+  background-color: rgb(116, 116, 116);
   margin-left: 30px;
   border-radius: 50%;
   width: 100px;
   height: 100px;
+}
+
+.plastic {
+  background-color: rgb(48, 232, 238);
+  margin-left: 30px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;  
 }
